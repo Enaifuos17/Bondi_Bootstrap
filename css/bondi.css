@@ -1,3 +1,51 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  height: 10000px;
 }
+
+/* Start Navbar  */
+
+.navbar {
+  background-color: var(--dark-color);
+}
+
+.navbar .navbar-collapse .nav-link {
+  color: #fff;
+}
+
+.navbar .navbar-collapse .nav-link.active,
+.navbar .navbar-collapse .nav-link:focus,
+.navbar .navbar-collapse .nav-link:hover {
+  color: var(--green-color);
+}
+
+.navbar .navbar-collapse .search {
+  border-left: 1px solid var(--green-color);
+}
+
+.navbar .navbar-collapse .search svg {
+  color: var(--green-color);
+}
+
+.navbar .navbar-toggler {
+  color: #fff;
+  font-size: 25px;
+  border-color: #fff;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* aria-expanded="false" --> default */
+/* when u click and the area expaded it becomes "true" */
+.navbar .navbar-toggler[aria-expanded="true"] {
+  border-color: var(--green-color);
+}
+
+/* End Navbar */
