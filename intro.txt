@@ -1,0 +1,10 @@
+[01] Requirements before start
+[02] What is framework or toolkit
+[03] Your knowledge
+[04] Its not a must
+[05] Does not contains everything
+[06] Include bootstrap
+[07] Include front awesome
+[08] Include google fronts
+[09] Discussion about version
+[10] Grid system explain

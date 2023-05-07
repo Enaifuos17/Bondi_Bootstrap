@@ -1,0 +1,9 @@
+* 01 - Introduction and Prepare the project
+
+--> number of columns: 12
+--> font-awesome: when u called the js file from the font-awesome
+    the "i" icon become "SVG", and that's better
+
+---------------------------------------------------------------------------------------------------------------
+
+* 02 - Deal with classes
