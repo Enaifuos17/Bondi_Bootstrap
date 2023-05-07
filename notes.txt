@@ -1,9 +1,31 @@
 * 01 - Introduction and Prepare the project
 
 --> number of columns: 12
+
 --> font-awesome: when u called the js file from the font-awesome
     the "i" icon become "SVG", and that's better
 
 ---------------------------------------------------------------------------------------------------------------
 
 * 02 - Deal with classes
+
+--> u must understand the "rem" bcs all the classes use it
+--> 16px == 1rem
+--> if we set the default size which is 16px to 18px 4ex in the :root
+    the 1rem will be equal to 18px
+--> 4ex: mt-5 ==> mt margin-top ; -5 ==> 16px * 3 = 48px
+    mt-4 = 24px
+
+--> always check the website https://getbootstrap.com/
+
+---------------------------------------------------------------------------------------------------------------
+
+* 03 - Create Navbar
+** some classes that we used 
+
+--> smthg-lg ==> lg for large (min-width: 992px)
+--> ms, me, ps, pe ==> s for start (left) ; e for end (right)
+
+--> if u want to know what the class DO, just inspect or google it
+
+---------------------------------------------------------------------------------------------------------------
