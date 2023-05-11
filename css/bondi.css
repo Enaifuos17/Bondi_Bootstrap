@@ -1,11 +1,38 @@
 :root {
   --dark-color: #19283f;
   --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --light-color: #eff7fa;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   height: 10000px;
+}
+
+.main-btn {
+  background-color: rgba(255, 65, 94);
+  color: var(--dark-color);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--dark-color);
+  transition: 0.4s;
+}
+
+.main-btn:hover {
+  background-color: var(--dark-color);
+  color: var(--red-color);
+  border-color: var(--red-color);
+}
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  background-color: var(--green-color);
+  width: 120px;
+  height: 2px;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Start Navbar  */
@@ -49,3 +76,44 @@ body {
 }
 
 /* End Navbar */
+
+/* Start Landing */
+
+.landing {
+  background-color: var(--dark-color);
+  /* 72px --> navbar's height */
+  min-height: calc(100vh - 72px);
+}
+
+/* End Landing */
+
+/* Start Features */
+
+.features .icon-holder {
+  /* border: 1px solid red; */
+  height: 200px;
+}
+
+.features .icon-holder svg {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.features .icon-holder .number {
+  font-size: 12rem;
+  color: var(--light-color);
+}
+
+.features .icon-holder .icon {
+  color: var(--green-color);
+}
+
+.features .feat h4 {
+  color: var(--dark-color);
+}
+
+.features .feat {
+  /* border: 1px solid blue; */
+}
+
+/* End Features */
