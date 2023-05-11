@@ -29,3 +29,49 @@
 --> if u want to know what the class DO, just inspect or google it
 
 ---------------------------------------------------------------------------------------------------------------
+
+* 04 - Create Landing Section
+** some classes that we use
+
+--> instead of doing:
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    u can do as a classes: 
+    d-flex justify-content-center align-items-center
+
+--> fs-5, fs-4, fs-6, fs1 --> h5, h4, h6, h1
+
+--> text-white-50 ==> #fff with 50% opacity
+
+---------------------------------------------------------------------------------------------------------------
+
+* 05 - Create Features Section
+** some classes that we use
+
+--> fw-normal, fw-medium, fw-semibold...
+--> text-uppercase, text-lowercase
+--> lh-lg ==> line-height: 2
+
+--> widths RESPONSIVE
+    => extra small: < 576px
+    => small:       >= 576px
+    => medium:      >= 768px
+    => large:       >= 992px
+    => extra large: >= 1200px
+
+--> col-md-6
+    explain:
+    => we give to each feature col-md-6
+    => meaning: f medium which is >= 768px
+    => ghadi yakhd HALF, htsh 3ndna fl2assl 12 columns 
+    => so f medium ghadi yjiiiw 2 features f view bash ykmlu 6
+    => and the third feature ghadi thbt lt7t tshd half of view
+
+--> col-lg-4
+    explain:
+    => we give to each feature col-lg-4
+    => btw: 4 * 3 = 12
+    => so f large view bla manssghru bla walu
+    => ghadi takhd each feature 33.333% mn view
+    => so ghadi yjiw btlaata f view
