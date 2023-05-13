@@ -75,3 +75,32 @@
     => so f large view bla manssghru bla walu
     => ghadi takhd each feature 33.333% mn view
     => so ghadi yjiw btlaata f view
+
+---------------------------------------------------------------------------------------------------------------
+
+* 06 - Create OurWork Section
+** some classes that we use
+
+--> list-unstyled
+
+--> col-sm-6
+    => >= 576px
+    => small screens: 6
+    => 6 + 6 = 12
+    => SO well have two boxes in small screens
+
+--> col-md-4
+    => >= 768px
+    => medium screens: 4
+    => 4 + 4 + 4 = 12
+    => SO well have three boxes in medium screens
+
+--> col-lg-3
+    => >= 992px
+    => large screens: 3
+    => 3 + 3 + 3 + 3 = 12
+    => SO well have four boxes in large screens
+
+---------------------------------------------------------------------------------------------------------------
+
+* 07 - 
