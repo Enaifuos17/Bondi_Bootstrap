@@ -167,3 +167,45 @@ body {
 }
 
 /* End Our Work */
+
+/* Start Some Stuff */
+
+.some-stuff .description {
+  max-width: 500px;
+}
+
+/* End Some Stuff */
+
+/* Start Our Team */
+
+.our-team {
+  background-color: var(--light-color);
+}
+
+.our-team .container > p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.our-team h2 {
+  color: rgb(255, 196, 0);
+}
+
+.our-team .row h4 {
+  background-color: var(--green-color);
+}
+
+.our-team .row .box {
+  border-bottom: 1px solid var(--green-color);
+}
+
+@media (max-width: 768px) {
+  .our-team .row > div {
+    padding-bottom: 50px;
+  }
+  .our-team .row > div:last-child {
+    padding-bottom: 0px;
+  }
+}
+
+/* End Our Team */

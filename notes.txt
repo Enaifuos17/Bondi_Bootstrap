@@ -21,7 +21,7 @@
 ---------------------------------------------------------------------------------------------------------------
 
 * 03 - Create Navbar
-** some classes that we used 
+** some classes that we used && notes
 
 --> smthg-lg ==> lg for large (min-width: 992px)
 --> ms, me, ps, pe ==> s for start (left) ; e for end (right)
@@ -31,7 +31,7 @@
 ---------------------------------------------------------------------------------------------------------------
 
 * 04 - Create Landing Section
-** some classes that we use
+** some classes that we use && notes
 
 --> instead of doing:
     display: flex;
@@ -47,7 +47,7 @@
 ---------------------------------------------------------------------------------------------------------------
 
 * 05 - Create Features Section
-** some classes that we use
+** some classes that we use && notes
 
 --> fw-normal, fw-medium, fw-semibold...
 --> text-uppercase, text-lowercase
@@ -79,7 +79,7 @@
 ---------------------------------------------------------------------------------------------------------------
 
 * 06 - Create OurWork Section
-** some classes that we use
+** some classes that we use &&  notes
 
 --> list-unstyled
 
@@ -103,4 +103,25 @@
 
 ---------------------------------------------------------------------------------------------------------------
 
-* 07 - 
+* 07 - Create Some Stuff Section
+** some classes that we use && notes
+
+--> text-md-start
+    => md (medium)
+    => min-width: 768px
+    => text-align: left
+
+---------------------------------------------------------------------------------------------------------------
+
+* 08 - Create Our Team Section
+** some classes that we use && notes
+
+--> img-fluid
+    => this is not the first time but i forgot to wrote some notes
+    => bootstrap for the image
+    => max-width: 100%
+    => height: auto
+
+---------------------------------------------------------------------------------------------------------------
+
+* 09 - 
