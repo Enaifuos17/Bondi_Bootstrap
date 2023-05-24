@@ -124,4 +124,35 @@
 
 ---------------------------------------------------------------------------------------------------------------
 
-* 09 - 
+* 09 - Create techs and projects Sections
+** some classes that we use && notes
+
+--> col-sm-6 col-md-4 col-lg-2
+    => small screens => 6 items (two columns)
+    => medium screens => 4 items (three columns)
+    => large screens => 2 items (six columns)
+
+---------------------------------------------------------------------------------------------------------------
+
+* 10 - Create Blog Section
+** some classes that we use && notes
+
+--> copy 80% of card html code from bootstrap
+
+---------------------------------------------------------------------------------------------------------------
+
+* 11 - Create Subscribe Section
+** some classes that we use && notes
+
+--> w-100
+    => width: 100%
+
+--> fst-italic
+    => font-style: italic
+
+--> bg-transparent
+    => background transparent
+
+---------------------------------------------------------------------------------------------------------------
+
+** 12 - 
