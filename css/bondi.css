@@ -7,7 +7,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  height: 10000px;
+  /* height: 10000px; */
 }
 
 .main-btn {
@@ -267,3 +267,111 @@ body {
 }
 
 /* End Subscribe */
+
+/* Start Footer */
+
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer .copyright > span {
+  color: var(--green-color);
+}
+
+.footer .copyright div span {
+  color: rgb(255, 196, 0);
+}
+
+.footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+  transition: 0.2s;
+}
+
+.footer .contact .facebook {
+  background-color: rgba(24, 118, 242, 0.7);
+}
+.footer .contact .facebook:hover {
+  background-color: rgb(24, 118, 242);
+}
+
+.footer .contact .twitter {
+  background-color: rgba(29, 160, 242, 0.7);
+}
+.footer .contact .twitter:hover {
+  background-color: rgb(29, 160, 242);
+}
+
+.footer .contact .linkedin {
+  background-color: rgba(10, 102, 194, 0.7);
+}
+.footer .contact .linkedin:hover {
+  background-color: rgb(10, 102, 194);
+}
+
+.footer .contact .youtube {
+  background-color: rgba(255, 0, 0, 0.7);
+}
+.footer .contact .youtube:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+@media (max-width: 768px) {
+  .footer .contact ul {
+    justify-content: center;
+  }
+}
+
+/* End Footer */
+
+/* scroll up button */
+
+.up {
+  font-family: Arial;
+  position: fixed;
+  bottom: 10px;
+  right: -40px;
+  /* to hide it */
+  background-color: rgba(255, 49, 80, 0.8);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 8px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.up svg {
+  color: #fff;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.up:hover svg {
+  transform: translateY(-5px);
+  animation: up 0.8s infinite;
+}
+
+@keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.up:hover {
+  /* opacity: 1; */
+  background-color: rgb(255, 49, 80);
+}
+
+.up.show {
+  right: 10px;
+  /* a class to show it */
+}

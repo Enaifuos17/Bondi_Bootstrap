@@ -155,4 +155,14 @@
 
 ---------------------------------------------------------------------------------------------------------------
 
-** 12 - 
+* 12 - Create Footer And The End 
+** some classes that we use && notes
+
+--> gap-3
+    => gap (3rem)
+
+--> d-block
+    => display: block
+
+--> rounded-circle
+    => border-radius: 50%
